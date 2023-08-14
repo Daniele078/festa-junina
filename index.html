@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro - Festa Junina</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img.jpg">
+</head>
+<body>
+       
+
+
+        <style>
+
+    .titulo{
+	text-align: center;
+	color: white;
+	background-color: steelblue;
+	padding: 10px;
+
+}
+
+.subtitulo{
+  font-family: sans-serif;
+  color: white;	
+  margin-left: 33%;
+  font-size: 23px;
+  font-weight: 5px;
+}
+
+.subtitulo2{
+	font-family: sans-serif;
+	color: black;
+	margin-left: 38%;
+	font-size: 23px;
+}
+.fieldset{
+	border: 0;
+}
+.fieldset.grupo .campo{
+	float: left;
+	margin-right: 1em;
+}
+
+.campo{
+   	margin-bottom: 1em;
+        }
+   
+ .campo label{
+                 margin-bottom: 0.2em;
+                 color: black;
+                 display: block;
+            }
+
+.festa{
+	width: 700px;
+	height: 400px;
+	margin: 1%;
+	margin-left: 23%;
+
+}
+
+
+.horas{
+	font-family: sans-serif;
+	color: red;
+	margin-left: 41%;
+}
+
+.endereco{
+	font-family: sans-serif;
+	color: limegreen;
+	margin-left: 32%;
+}
+
+
+
+.grupo{
+	border-radius: 10px;
+	border-color: white;
+   box-sizing: border-box ;
+	padding: 20px ;
+	margin-left: 495px;
+	font-size: 15px;
+	width: 150px;
+	margin: 25 auto;
+	vertical-align: top;
+	background-color: white;
+ 
+}
+
+.botao{
+	font-size: 1,.2em;
+	background: black;
+	border: 0;
+	margin-bottom: 1em;
+	color: white;
+	padding: 0.2em 0.6;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0. 2);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 90%;
+	left: -55%;
+	 transform: translate(-50% -50%) ;
+
+
+}
+
+.botao:hover{
+	background: white;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.botao, select{
+	cursos: pointer;
+}
+
+.check{
+	display: inline-block;
+}
+
+.campo select option{
+	padding-right: 3%;
+}
+
+
+
+body{
+	background-image: url(imagem01.jpg);
+}
+</style>
+
+
+                <div>
+                  <h1 class="titulo">Festa Junina</h1>
+
+                  <h3><p class="subtitulo2"><strong>Venha ao nosso Arraiá</strong></p></h3>
+                  <h2><p class="horas"><strong>7 JULHO ÀS 16H</strong></p></h2>
+                  <p class="endereco"><strong>Rua Dona Julieta 3750, Clube Olímpico - Centro histórico.</strong></p>
+              </div>
+
+     <img src="imagem.jpeg" class="festa">
+              
+              <h3><p class="subtitulo"><strong>Cadastro para a Festa Junina!<strong></p></h3>
+               
+                  <br>
+           <form>
+           	<fieldset class="grupo">
+           	<div>
+              <label for="nome"><strong>Nome</strong></label>
+              <input type="text" name="Nome" id="nome" required>
+          </div>
+          
+         
+          	<label for="sobrenome"><strong>Sobrenome</strong></label>
+          	<input type="text" name="Sobrenome" id="sobrenome" required>
+          </div>
+      
+      <BR>
+            <div>
+              <label for="email"><strong>Email</strong></label>
+              <input type="text" name="email" id="email" required>
+          </div>
+            
+          <div>
+              <label for="telefone"><strong>Telefone</strong></label>
+              <input type="text" name="telefone" id="telefone" required>
+          </div>
+           
+            <br>
+
+           <div>
+            <label for="ingresso"><strong>Ingresso</strong></label>
+            <select id="ingesso">
+            	<option>1</option>
+            	<option>2</option>
+            	<option>3</option>
+            	<option>4</option>
+            	<option>5</option>
+            </select>
+
+          <input type="submit" value="Concluido">
+        </div>
+      </fieldset>
+
+</body>
+</html>
